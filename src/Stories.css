@@ -1,0 +1,66 @@
+.stories{
+    display: flex;
+  align-content: center;
+    background-color: #ffffff;
+    border:1px solid #dbdbdb;
+    border-radius: 3px;
+    margin: 2em 0 1.5em 0;
+    height: 7.4em;
+    overflow:hidden;
+   
+
+
+}
+
+.button{
+    position:relative;
+    top:45px;
+    width:30px;
+    height: 20px;
+    opacity: 2px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #dad1d1;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.butright1{
+    position:relative;
+    top:45px;
+    width:30px;
+    height: 20px;
+    opacity: 2px;
+    left:20px;
+    z-index: 10000!important;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #dad1d1;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;   
+}
+.butright{
+    position:relative;
+    top:45px;
+    width:30px;
+    height: 20px;
+    opacity: 2px;
+    left:-60px;
+    z-index: 10000!important;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #dad1d1;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (max-width:640px){
+    .stories{
+        margin: 0 0 0.5em 0;
+    }
+}
+/* .firstChild{
+    margin-left: -20px!important;
+} */

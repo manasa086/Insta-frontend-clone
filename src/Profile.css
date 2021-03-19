@@ -1,0 +1,37 @@
+.profile{
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: -1em!important;
+    position: relative;
+   
+    
+
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    min-width: 180px;
+
+}
+.accountName2{
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.accountName2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.caption{
+    color:#8e8e8e;
+
+}
+.caption.small{
+    font-size: 0.8em;
+}
+a{
+    text-align: right;
+    width: 100%;
+}

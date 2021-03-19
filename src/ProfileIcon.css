@@ -1,0 +1,35 @@
+.storyBorder{
+    padding:2px;
+    background: linear-gradient(200deg,#da3394 25%,#e03c67 50%,#f3753b 75%,#f99b4a 100%);
+    border-radius: 50%;
+} 
+.profileIcon{
+    border-radius: 50%;
+    border:2px solid #ffffff;
+    display: block;
+    z-index:-1!important;
+}
+.profileIcon:hover{
+    cursor: pointer;
+}
+.profileIconsmall{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid #ffffff;
+    display: block;
+}
+.profileIconmedium{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:2px solid #ffffff;
+    display: block;
+}
+.profileIconbig{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:2px solid #ffffff;
+    display: block;
+}
